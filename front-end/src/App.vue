@@ -1,6 +1,8 @@
 <template>
-  <h1>Hello from the other side!</h1>
-  <router-view></router-view>
+  <h1>From the tree to the wreath</h1>
+  <div class="page-wrap">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
@@ -12,12 +14,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
